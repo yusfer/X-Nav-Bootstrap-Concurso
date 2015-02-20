@@ -9,6 +9,50 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.claseimagen{
+
+	width: 120px;
+	height: 120px;
+}
+.claseimagen2{
+
+	width: 150px;
+	height: 120px;
+}
+
+.botontop{
+  display:block;
+}
+
+
+a#to_top {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	background:url("../images/btn1.png") repeat-x scroll 0 0 #FFAA22;
+	border:1px solid #CCC;
+	color:#333333;
+	font:bold 13px Arial,Sans-serif;
+	padding:6px 10px;text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFF;
+	bottom:8px;
+	position:fixed;
+	right:8px;
+}
+a#to_top:hover {
+	background:url("../images/btn2.png") repeat-x scroll 0 0 #FFAA22;
+	border:1px solid #08c;
+	color:#000;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #44CCDD;
+	-moz-text-shadow:0 1px 0 #44CCDD;
+	-webkit-text-shadow:0 1px 0 #44CCDD;
+}
+
 .text-muted {
     color: #777;
 }
@@ -651,68 +695,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#contactus {
     background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
+    background-image: url(../img/colores.png);
+    background-size:100% 100%;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#contactus .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#contactus .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contactus .form-group input,
+section#contactus .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#contactus .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#contactus .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#contactus .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#contactus::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#contactus:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#contactus::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#contactus:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#contactus .text-danger {
     color: #e74c3c;
 }
 
