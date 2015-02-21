@@ -7,7 +7,15 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+   
 }
+
+div.backgroundid{
+	background-image: url(../img/space2.jpg);    
+    background-repeat:repeat;
+
+}
+
 
 .claseimagen{
 
