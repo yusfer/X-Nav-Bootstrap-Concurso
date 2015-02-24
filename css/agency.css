@@ -684,6 +684,11 @@ section h3.section-subheading {
     text-align: center;
 }
 
+#colaboraciones img{
+	margin: 0 auto;
+    border: 7px solid #fff;
+}
+
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
