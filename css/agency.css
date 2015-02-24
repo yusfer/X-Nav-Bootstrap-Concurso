@@ -317,7 +317,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header2.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -710,7 +710,7 @@ aside.clients img {
 
 section#contactus {
     background-color: #222;
-    background-image: url(../img/colores.png);
+    background-image: url(../img/header1.png);
     background-size:100% 100%;
     background-repeat: no-repeat;
 }
