@@ -682,6 +682,13 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    opacity:0.5;
+}
+
+
+.team-member:hover{
+
+	opacity:1;
 }
 
 #colaboraciones img{
@@ -702,6 +709,23 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+}
+
+.tile-progress {
+
+    margin-bottom: 50px;
+    opacity:0.5;
+}
+.tile-header {
+
+    margin-bottom: 50px;
+   
+}
+
+
+.tile-progress:hover{
+
+	opacity:1;
 }
 
 aside.clients img {
